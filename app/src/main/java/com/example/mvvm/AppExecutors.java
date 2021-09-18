@@ -19,4 +19,6 @@ public class AppExecutors {
     public ScheduledExecutorService getNetworkIO(){
         return networkIO;
     }
+
+//    ScheduleExecutorService : it make a delay and then run commands
 }
